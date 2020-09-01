@@ -1,0 +1,24 @@
+﻿@page "/counter"
+
+<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+
+<p>ИНТ: @intelligence</p>
+<p>МДР: @dexterity</p>
+<p>ДУХ: @spirit</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int currentCount = 0;
+
+    private int intelligence = 10;
+    private int dexterity = 10;
+    private int spirit = 10;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}
