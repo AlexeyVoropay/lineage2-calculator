@@ -3,5 +3,7 @@
     public class CharacterStats
     {
         public BaseCharacteristics Base { get; set; }
+
+        public StateCharacteristics Current { get; set; }
     }
 }

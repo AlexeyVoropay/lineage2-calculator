@@ -9,13 +9,13 @@
 <p></p>
 <br>
 <p style="font-weight:bold">Характеристики</p>
-<p>Физ.Атк.: 1 Маг.Атк.: 1</p>
-<p>Физ.Защ.: 1 Маг.Защ.: 1</p>
-<p>Физ.Точность: 1 Маг.Точность.: 1</p>
-<p>Физ.Уклонение: 1 Маг.Уклонение: 1</p>
-<p>Физ.Крит.Атк.: 1 Маг.Крит.Атк.: 1</p>
-<p>Скорость Атк.: 1 Скорость Маг.: 1</p>
-<p>Скорость: 1</p>
+<p>Физ.Атк.: @character.CalculatedStats.Current.PhysicalAttack Маг.Атк.: @character.CalculatedStats.Current.MagicalAttack</p>
+<p>Физ.Защ.: @character.CalculatedStats.Current.PhysicalDefence Маг.Защ.: @character.CalculatedStats.Current.MagicalDefence</p>
+<p>Физ.Точность: @character.CalculatedStats.Current.PhysicalAccuracy Маг.Точность.: @character.CalculatedStats.Current.MagicalAccuracy</p>
+<p>Физ.Уклонение: @character.CalculatedStats.Current.PhysicalEvasion Маг.Уклонение: @character.CalculatedStats.Current.MagicalEvasion</p>
+<p>Физ.Крит.Атк.: @character.CalculatedStats.Current.CriticalPhysicalAttack Маг.Крит.Атк.: @character.CalculatedStats.Current.CriticalMagicalAttack</p>
+<p>Скорость Атк.: @character.CalculatedStats.Current.SpeedPhysicalAttack Скорость Маг.: @character.CalculatedStats.Current.SpeedMagicalAttack</p>
+<p>Скорость: @character.CalculatedStats.Current.SpeedRun</p>
 <p style="font-weight:bold">Базовые характеристики</p>
 <p>ИНТ: @characteristics.INT МДР: @characteristics.DEX ДУХ: @characteristics.MEN</p>
 <img src="SkillPictures/Skill_30400.jpg" asp-append-version="true" alt="First slide" />
@@ -26,9 +26,12 @@
 <p>HpStaticBonus: @StatBonus.HpStaticBonus</p>
 <p>SpeedStaticBonus: @StatBonus.SpeedStaticBonus</p>
 
+@using L2Calc.Common
 @using L2Calc.Common.Models
 @using L2Calc.Common.Enums
 @code {
+
+    private L2Calc.Common.Models.Сharacter character => CharactersTable.GetFirstСharacter();
     private BaseCharacteristics characteristics => StatHelper.GetCharacteristics(CharacterType.Arteya);
     private StatBonus StatBonus => StatHelper.GetStatBonuses(StatHelper.GetSkills(new List<SkillCode> { SkillCode.ErtheiaTenacity }));
     private int currentCount = 0;

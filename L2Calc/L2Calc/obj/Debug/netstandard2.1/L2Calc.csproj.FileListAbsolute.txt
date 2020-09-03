@@ -187,7 +187,6 @@ C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\Razor\_Impor
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\L2Calc.RazorTargetAssemblyInfo.cache
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\L2Calc.csproj.CopyComplete
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\blazor\unlinked.output
-C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\WQsnyxzCdu5FONQwF_Qgkz5-wUHct64z9JeRPdIa1Kc=.hash
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\ZxXy75PYbzJxNfAc-SAP1nUYm4gt1jSaOpFnBb9m85M=.hash
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\BaZPMj95_YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=.hash
@@ -225,7 +224,6 @@ C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\tm
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\LIfCYwg_PHltTK4z3EnbSkA7m2cn8JS4jHVthdKrDF8=.hash
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\PEg9ghiKSWBTX0jq8pFDvv2Yvw92Y8W0ELtWrSE4fhA=.hash
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=.hash
-C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\9N-u7JHr_e2ijk2c_qRIpQsTpkBMR3DRF1JfeM8nkDM=.hash
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\FJ_rEgcx6ljTxwbRXZSUGfrDKpVvOxHCSfNxbnXNn3M=.hash
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\oK1Bjv95fH_hSbogUkJE_xDAI203kJG6lL6Sm-NuPWg=.hash
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\y-FyJQOcW2TOcTp7Iuv8brGBzL5ZP0oJdG7ysK_gtKc=.hash
@@ -240,14 +238,11 @@ C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\_k
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\rvTW0d54uLW0iDMAX30lpmr9f8uHoS3YYkEU5zNGhyc=.hash
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=.hash
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\czNf3btAeBW-vvID5LAfgcsNZ_GM3ssVuPaMflcg0rs=.hash
-C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\ZSyuZpsqTxmM6P80E2iQLqehbko6HoHx0iaIxtBKxDc=.hash
-C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\epR_kTs_OpEqiKxsg_ZwmrdxDJ6br4NQAHRFCKLVxDM=.hash
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\SPHS1EAPAcMFN4TEIUYl3FWtoCQTsNJch0XVGgok1eE=.hash
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\blazor\blazor.boot.json
-C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\iCm1b8bFE_C-RAvt0Q2sd8gaEJgT_748TSi7u3-62lU=.hash
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\compressed\_framework\_bin\L2Calc.dll.gz
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Net.Http.Json.dll.gz
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Buffers.dll.gz
@@ -372,3 +367,8 @@ C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\staticwebass
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\staticwebassets\L2Calc.StaticWebAssets.xml
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\L2Calc.dll
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\L2Calc.pdb
+C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\26W8S8DBXtmOpMPyrTbR3fwTJHYtVEg7jLgwqGLE_EA=.hash
+C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\qlPyfRt0exM6-fEL27RZwjxieZzaOhi3IOP2ALMoMaA=.hash
+C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\v6rrKGamOP1ZvXFwulkPdS1Qe1T10OVvYCv2tQKfpow=.hash
+C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\OHjbFU4XFsKV1BRhhuQA7ET3vFJ4DbfHJNLuqnZb3y0=.hash
+C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\08uJXOAg7z-WB2ITozX8Y3H58sF0MJz0LnT7Dv8JHEA=.hash

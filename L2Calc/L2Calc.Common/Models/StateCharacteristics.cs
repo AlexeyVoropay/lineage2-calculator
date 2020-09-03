@@ -5,7 +5,7 @@
         /// <summary>
         /// Количество специальных боевых очков.
         /// </summary>
-        public int CompbatPoints { get; set; }
+        public int CombatPoints { get; set; }
         /// <summary>
         /// Количество здоровья.
         /// </summary>
@@ -15,31 +15,57 @@
         /// </summary>
         public int ManaPoints { get; set; }
         /// <summary>
-        /// Сила атаки.
+        /// Сила физической атаки.
         /// </summary>
-        public int PowerAttack { get; set; }
-
-        /*
-         PowerAttack.	The power of your character's physical attack.
-M. Atk.	The power of your character's magical attack.
-P. Def.	The value of defence against physical attacks.
-M. Def.	The value of defence against magical attacks.
-P. Accuracy	P. Accuracy affects your accuracy for physical attacks
-M. Accuracy	M. Accuracy affects your accuracy for magical attacks
-P. Evasion	P. Evasion affects your ability to evade from P. attacks.
-M. Evasion	M. Evasion affects your ability to evade from M. attacks.
-P. Crit. Atk.	Chance to deliver a critical blow for physical attacks.
-M. Crit. Atk.	Chance to deliver a critical blow for magical attacks.
-Atk Spd.	The speed of P. Atk of your character.
-Speed of Magical skills usage.
-Speed
-          */
-
+        public int PhysicalAttack { get; set; }
+        /// <summary>
+        /// Сила магической атаки.
+        /// </summary>
+        public int MagicalAttack { get; set; }
+        /// <summary>
+        /// Показатель защиты от физических атак.
+        /// </summary>
+        public int PhysicalDefence { get; set; }
+        /// <summary>
+        /// Показатель защиты от магических атак.
+        /// </summary>
+        public int MagicalDefence { get; set; }
+        /// <summary>
+        /// Показатель физической точности.
+        /// </summary>
+        public int PhysicalAccuracy { get; set; }
+        /// <summary>
+        /// Показатель точности физической атаки.
+        /// </summary>
+        public int MagicalAccuracy { get; set; }
+        /// <summary>
+        /// Показатель уклонения от физических атак.
+        /// </summary>
+        public int PhysicalEvasion { get; set; }
+        /// <summary>
+        /// Показатель уклонения от магических атак.
+        /// </summary>
+        public int MagicalEvasion { get; set; }
+        /// <summary>
+        /// Показатель вероятности нанесения критической физической атаки.
+        /// </summary>
+        public int CriticalPhysicalAttack { get; set; }
+        /// <summary>
+        /// Показатель вероятности нанесения критической магической атаки.
+        /// </summary>
+        public int CriticalMagicalAttack { get; set; }
+        /// <summary>
+        /// Показатель скорости физической аттаки.
+        /// </summary>
+        public int SpeedPhysicalAttack { get; set; }
+        /// <summary>
+        /// Показатель скорости магической атаки.
+        /// </summary>
+        public int SpeedMagicalAttack { get; set; }
         /// <summary>
         /// Скорость бега
         /// </summary>
         public int SpeedRun { get; set; }
-
         /// <summary>
         /// Скорость хотьбы
         /// </summary>
