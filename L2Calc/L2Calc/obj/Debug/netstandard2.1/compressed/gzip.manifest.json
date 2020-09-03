@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\F4bjaEVhtY3fnlMKXlDCPgTI8nQkpLohPEIlYOOSrk0=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\wthmRzo61w5MDMvNc4x7r9MB3qAhm1fI3OHatUGjhu4=.hash",
       "Source": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\L2Calc.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/L2Calc.dll.gz"
     },
@@ -261,7 +261,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\vHhw8NQc_al0AXWpOIm5JAWUTaAm5P1KPubS2Wd6SLc=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\vA3kTuMCe98M31QjPZNCVSCjM17ypMtcV0ClQpdMRYY=.hash",
       "Source": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\L2Calc.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/L2Calc.pdb.gz"
     },
@@ -286,7 +286,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\pPjTBKlZJJHirJhBbq9GKOh5ykhCiLd7vXAY0RDPwxU=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\joIzqETLaIj2bfu7aw6808fmK20u5MY_3ThkoKryJMI=.hash",
       "Source": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     }

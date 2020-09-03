@@ -354,6 +354,9 @@ C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\staticwebass
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\staticwebassets\L2Calc.StaticWebAssets.xml
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\L2Calc.dll
 C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\L2Calc.pdb
-C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\F4bjaEVhtY3fnlMKXlDCPgTI8nQkpLohPEIlYOOSrk0=.hash
-C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\vHhw8NQc_al0AXWpOIm5JAWUTaAm5P1KPubS2Wd6SLc=.hash
-C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\pPjTBKlZJJHirJhBbq9GKOh5ykhCiLd7vXAY0RDPwxU=.hash
+C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\bin\Debug\netstandard2.1\wwwroot\SkillPictures\Skill_30400.jpg
+C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\bin\Debug\netstandard2.1\wwwroot\SkillPictures\Skill_30401.jpg
+C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\bin\Debug\netstandard2.1\wwwroot\SkillPictures\Skill_30402.jpg
+C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\wthmRzo61w5MDMvNc4x7r9MB3qAhm1fI3OHatUGjhu4=.hash
+C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\vA3kTuMCe98M31QjPZNCVSCjM17ypMtcV0ClQpdMRYY=.hash
+C:\Users\Zver\Desktop\L2Calc\L2Calc\L2Calc\obj\Debug\netstandard2.1\integrity\joIzqETLaIj2bfu7aw6808fmK20u5MY_3ThkoKryJMI=.hash

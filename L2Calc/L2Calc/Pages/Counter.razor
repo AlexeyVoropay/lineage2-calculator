@@ -3,22 +3,53 @@
 <h1>Counter</h1>
 
 <p>Current count: @currentCount</p>
-
-<p>ИНТ: @intelligence</p>
-<p>МДР: @dexterity</p>
-<p>ДУХ: @spirit</p>
-
+<p></p>
+<p>CP: @cpPoints HP: @hpPoints MP: @mpPoints</p>
+<p></p>
+<p></p>
+<br>
+<p style="font-weight:bold">Характеристики</p>
+<p>Физ.Атк.: 1 Маг.Атк.: 1</p>
+<p>Физ.Защ.: 1 Маг.Защ.: 1</p>
+<p>Физ.Точность: 1 Маг.Точность.: 1</p>
+<p>Физ.Уклонение: 1 Маг.Уклонение: 1</p>
+<p>Физ.Крит.Атк.: 1 Маг.Крит.Атк.: 1</p>
+<p>Скорость Атк.: 1 Скорость Маг.: 1</p>
+<p>Скорость: 1</p>
+<p style="font-weight:bold">Базовые характеристики</p>
+<p>ИНТ: @characteristics.INT МДР: @characteristics.DEX ДУХ: @characteristics.MEN</p>
+<img src="SkillPictures/Skill_30400.jpg" asp-append-version="true" alt="First slide" />
+<br>
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<p style="font-weight:bold">StatBonus</p>
+<p>HpPercentBonus: @StatBonus.HpPercentBonus</p>
+<p>HpStaticBonus: @StatBonus.HpStaticBonus</p>
+<p>SpeedStaticBonus: @StatBonus.SpeedStaticBonus</p>
+
 
 @code {
+    private Characteristics characteristics => StatHelper.GetCharacteristics(StatHelper.CharacterType.Arteya);
+    private StatBonus StatBonus => StatHelper.GetStatBonuses(StatHelper.GetSkills(new List<SkillCode> { SkillCode.ErtheiaTenacity }));
     private int currentCount = 0;
 
-    private int intelligence = 10;
-    private int dexterity = 10;
-    private int spirit = 10;
+    private decimal cpPoints = 0;
+    private decimal hpPoints = 0;
+    private decimal mpPoints = 0;
+
+    private int strength = 39;
+    private int dexterity = 30;
+    private int endurance = 37;
+
+    private int intelligence = 85;
+    private int wisdom = 77;
+    private int spirit = 73;
+
+    private int lucky = 32;
+    private int charisma = 43;
+
 
     private void IncrementCount()
     {
-        currentCount++;
+    currentCount++;
     }
-}
+    }
