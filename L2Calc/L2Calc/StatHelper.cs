@@ -1,11 +1,15 @@
 ﻿using System.Collections.Generic;
 using System.Dynamic;
+using L2Calc.Common;
+using L2Calc.Common.Enums;
+using L2Calc.Common.Models;
 
 namespace L2Calc
 {
     public static partial class StatHelper
     {
         /*
+         персонаж
         Хар-ка        Влияние
         СИЛ (STR)     Физ. Атк.
         ЛВК (DEX)     Скор. Атк., Физ. Точность, Физ. Уклонение, шанс Физ. Крит. Атк.
@@ -17,13 +21,13 @@ namespace L2Calc
         ХАР (CHA)     Физ. Атк., Физ. Защ., Скор. Атк., Маг. Атк., Маг. Защ., Скор. Маг, Макс. HP / MP / CP и скорость восстановления HP / MP / CP. 
          */
 
-        public static Characteristics GetCharacteristics(CharacterType characterType)
+        public static BaseCharacteristics GetCharacteristics(CharacterType characterType)
         {
             switch (characterType)
             {
                 case CharacterType.Feo:
                     //не проверено
-                    return new Characteristics
+                    return new BaseCharacteristics
                     {
                         STR = 39,
                         DEX = 30,
@@ -36,7 +40,7 @@ namespace L2Calc
                     };
                 case CharacterType.Arteya:
                     //проверено
-                    return new Characteristics
+                    return new BaseCharacteristics
                     {
                         STR = 89,
                         DEX = 52,
@@ -52,19 +56,19 @@ namespace L2Calc
             }
             return null;
         }
-        public static BaseCharacteristics GetBaseCharacteristics(CharacterType characterType)
+        public static StartCharacteristics GetBaseCharacteristics(CharacterType characterType)
         {
             switch (characterType)
             {
                 case CharacterType.Feo:
                     //не проверено
-                    return new BaseCharacteristics
+                    return new StartCharacteristics
                     {
                         BaseSpeedRun = 122,
                         BaseSpeedWalk = 85,
                     };
                 case CharacterType.Arteya:
-                    return new BaseCharacteristics
+                    return new StartCharacteristics
                     {
                         BaseSpeedRun = 191,
                         BaseSpeedWalk = 138,
@@ -74,19 +78,19 @@ namespace L2Calc
             }
             return null;
         }
-        public static BaseCharacteristics GetBaseSkills(CharacterType characterType)
+        public static StartCharacteristics GetBaseSkills(CharacterType characterType)
         {
             switch (characterType)
             {
                 case CharacterType.Feo:
                     //не проверено
-                    return new BaseCharacteristics
+                    return new StartCharacteristics
                     {
                         BaseSpeedRun = 122,
                         BaseSpeedWalk = 85,
                     };
                 case CharacterType.Arteya:
-                    return new BaseCharacteristics
+                    return new StartCharacteristics
                     {
                         BaseSpeedRun = 191,
                         BaseSpeedWalk = 138,

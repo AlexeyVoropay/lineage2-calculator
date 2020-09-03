@@ -1,8 +1,9 @@
-﻿namespace L2Calc
+﻿using L2Calc.Common.Models;
+
+namespace L2Calc.Common
 {
     public static class SkillsTable
     {
-
         public static Skill GetSkill(SkillCode skillCode)
         {
             switch (skillCode)

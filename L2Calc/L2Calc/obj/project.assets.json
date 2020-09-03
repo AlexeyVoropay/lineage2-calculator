@@ -430,6 +430,16 @@
         "runtime": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
+      },
+      "L2Calc.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/L2Calc.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/L2Calc.Common.dll": {}
+        }
       }
     }
   },
@@ -1626,10 +1636,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "L2Calc.Common/1.0.0": {
+      "type": "project",
+      "path": "../L2Calc.Common/L2Calc.Common.csproj",
+      "msbuildProject": "../L2Calc.Common/L2Calc.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
+      "L2Calc.Common >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 3.2.1",
       "Microsoft.AspNetCore.Components.WebAssembly.Build >= 3.2.1",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 3.2.1",
@@ -1662,7 +1678,11 @@
       },
       "frameworks": {
         "netstandard2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc.Common\\L2Calc.Common.csproj": {
+              "projectPath": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc.Common\\L2Calc.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

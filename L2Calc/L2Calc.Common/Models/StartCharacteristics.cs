@@ -1,6 +1,6 @@
-﻿namespace L2Calc
+﻿namespace L2Calc.Common.Models
 {
-    public class BaseCharacteristics
+    public class StartCharacteristics
     {
         /// <summary>
         /// Базовая скорость бега

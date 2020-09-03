@@ -1,6 +1,6 @@
-﻿namespace L2Calc
+﻿namespace L2Calc.Common.Models
 {
-    public class Characteristics
+    public class BaseCharacteristics
     {
         /// <summary>
         /// СИЛ

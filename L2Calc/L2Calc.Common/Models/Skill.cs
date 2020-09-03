@@ -1,4 +1,4 @@
-﻿namespace L2Calc
+﻿namespace L2Calc.Common.Models
 {
     public class Skill
     {

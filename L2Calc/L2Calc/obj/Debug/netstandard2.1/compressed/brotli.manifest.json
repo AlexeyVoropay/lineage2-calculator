@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\wthmRzo61w5MDMvNc4x7r9MB3qAhm1fI3OHatUGjhu4=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\WQsnyxzCdu5FONQwF_Qgkz5-wUHct64z9JeRPdIa1Kc=.hash",
       "Source": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\L2Calc.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/L2Calc.dll.br"
     },
@@ -191,6 +191,11 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
     },
     {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\9N-u7JHr_e2ijk2c_qRIpQsTpkBMR3DRF1JfeM8nkDM=.hash",
+      "Source": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\L2Calc.Common.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/L2Calc.Common.dll.br"
+    },
+    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\FJ_rEgcx6ljTxwbRXZSUGfrDKpVvOxHCSfNxbnXNn3M=.hash",
       "Source": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.WebAssembly.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.dll.br"
@@ -261,9 +266,14 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\vA3kTuMCe98M31QjPZNCVSCjM17ypMtcV0ClQpdMRYY=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ZSyuZpsqTxmM6P80E2iQLqehbko6HoHx0iaIxtBKxDc=.hash",
       "Source": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\L2Calc.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/L2Calc.pdb.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\epR_kTs_OpEqiKxsg_ZwmrdxDJ6br4NQAHRFCKLVxDM=.hash",
+      "Source": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\L2Calc.Common.pdb",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/L2Calc.Common.pdb.br"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash",
@@ -286,7 +296,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\joIzqETLaIj2bfu7aw6808fmK20u5MY_3ThkoKryJMI=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\iCm1b8bFE_C-RAvt0Q2sd8gaEJgT_748TSi7u3-62lU=.hash",
       "Source": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }

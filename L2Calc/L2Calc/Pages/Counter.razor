@@ -26,9 +26,10 @@
 <p>HpStaticBonus: @StatBonus.HpStaticBonus</p>
 <p>SpeedStaticBonus: @StatBonus.SpeedStaticBonus</p>
 
-
+@using L2Calc.Common.Models
+@using L2Calc.Common.Enums
 @code {
-    private Characteristics characteristics => StatHelper.GetCharacteristics(StatHelper.CharacterType.Arteya);
+    private BaseCharacteristics characteristics => StatHelper.GetCharacteristics(CharacterType.Arteya);
     private StatBonus StatBonus => StatHelper.GetStatBonuses(StatHelper.GetSkills(new List<SkillCode> { SkillCode.ErtheiaTenacity }));
     private int currentCount = 0;
 
@@ -36,20 +37,20 @@
     private decimal hpPoints = 0;
     private decimal mpPoints = 0;
 
-    private int strength = 39;
-    private int dexterity = 30;
-    private int endurance = 37;
+    //private int strength = 39;
+    //private int dexterity = 30;
+    //private int endurance = 37;
 
-    private int intelligence = 85;
-    private int wisdom = 77;
-    private int spirit = 73;
+    //private int intelligence = 85;
+    //private int wisdom = 77;
+    //private int spirit = 73;
 
-    private int lucky = 32;
-    private int charisma = 43;
+    //private int lucky = 32;
+    //private int charisma = 43;
 
 
     private void IncrementCount()
     {
-    currentCount++;
+        currentCount++;
     }
-    }
+}
