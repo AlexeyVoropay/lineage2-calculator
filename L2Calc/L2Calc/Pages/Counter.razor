@@ -1,13 +1,6 @@
 ﻿@page "/counter"
 
-<h1>Counter</h1>
-
-<p>Current count: @currentCount</p>
-<p></p>
-<p>CP: @cpPoints HP: @hpPoints MP: @mpPoints</p>
-<p></p>
-<p></p>
-<br>
+<p>CP: @character.CalculatedStats.Current.CombatPoints HP: @character.CalculatedStats.Current.HealthPoints MP: @character.CalculatedStats.Current.ManaPoints</p>
 <p style="font-weight:bold">Характеристики</p>
 <p>Физ.Атк.: @character.CalculatedStats.Current.PhysicalAttack Маг.Атк.: @character.CalculatedStats.Current.MagicalAttack</p>
 <p>Физ.Защ.: @character.CalculatedStats.Current.PhysicalDefence Маг.Защ.: @character.CalculatedStats.Current.MagicalDefence</p>
@@ -17,7 +10,9 @@
 <p>Скорость Атк.: @character.CalculatedStats.Current.SpeedPhysicalAttack Скорость Маг.: @character.CalculatedStats.Current.SpeedMagicalAttack</p>
 <p>Скорость: @character.CalculatedStats.Current.SpeedRun</p>
 <p style="font-weight:bold">Базовые характеристики</p>
-<p>ИНТ: @characteristics.INT МДР: @characteristics.DEX ДУХ: @characteristics.MEN</p>
+<p>СИЛ: @character.CalculatedStats.Base.STR ЛВК: @character.CalculatedStats.Base.DEX ВЫН: @character.CalculatedStats.Base.CON</p>
+<p>ИНТ: @character.CalculatedStats.Base.INT МДР: @character.CalculatedStats.Base.WIT ДУХ: @character.CalculatedStats.Base.MEN</p>
+<p>УДЧ: @character.CalculatedStats.Base.LUC ХАР: @character.CalculatedStats.Base.CHA</p>
 <img src="SkillPictures/Skill_30400.jpg" asp-append-version="true" alt="First slide" />
 <br>
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
@@ -25,6 +20,13 @@
 <p>HpPercentBonus: @StatBonus.HpPercentBonus</p>
 <p>HpStaticBonus: @StatBonus.HpStaticBonus</p>
 <p>SpeedStaticBonus: @StatBonus.SpeedStaticBonus</p>
+
+
+
+<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+<p></p>
 
 @using L2Calc.Common
 @using L2Calc.Common.Models

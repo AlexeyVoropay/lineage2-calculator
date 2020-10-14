@@ -1,4 +1,5 @@
-﻿using L2Calc.Common.Models;
+﻿using L2Calc.Common.Enums;
+using L2Calc.Common.Models;
 
 namespace L2Calc.Common
 {
@@ -35,7 +36,18 @@ namespace L2Calc.Common
                         }
                     };
                 case SkillCode.ErtheiaEfficacy:
-                    break;
+                    return new Skill
+                    {
+                        Code = SkillCode.ErtheiaTenacity,
+                        Name = "",
+                        Image = "SkillPictures/Skill_30402.jpg",
+                        StatBonus = new StatBonus
+                        {
+                            HpPercentBonus = 0,
+                            HpStaticBonus = 0,
+                            SpeedStaticBonus = 0,
+                        }
+                    };
                 default:
                     break;
             }

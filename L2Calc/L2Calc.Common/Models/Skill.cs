@@ -1,4 +1,6 @@
-﻿namespace L2Calc.Common.Models
+﻿using L2Calc.Common.Enums;
+
+namespace L2Calc.Common.Models
 {
     public class Skill
     {

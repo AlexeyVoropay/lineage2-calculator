@@ -65,7 +65,7 @@
         /// <summary>
         /// Скорость бега
         /// </summary>
-        public int SpeedRun { get; set; }
+        public decimal SpeedRun { get; set; }
         /// <summary>
         /// Скорость хотьбы
         /// </summary>

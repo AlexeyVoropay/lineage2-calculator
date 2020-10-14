@@ -5,3 +5,104 @@
 Welcome to your new app.
 
 <SurveyPrompt Title="How is Blazor working for you?" />
+
+<div class="form-group row">
+    <div class="col-md-4">
+        <label class="control-label col-md-12">Язык</label>
+        <select class="form-control" @onchange="DoStuff">
+            <option value="0">Выберите язык</option>
+            <option value="@((int)CharacterType.Arteya)">Arteya</option>
+            <option value="@((int)CharacterType.Feo)">Feo</option>
+        </select>
+    </div>
+</div>
+
+<p>@CharacterType</p>
+
+<p>CP: @character.CalculatedStats.Current.CombatPoints HP: @character.CalculatedStats.Current.HealthPoints MP: @character.CalculatedStats.Current.ManaPoints</p>
+<p style="font-weight:bold">Характеристики</p>
+<p>Физ.Атк.: @character.CalculatedStats.Current.PhysicalAttack Маг.Атк.: @character.CalculatedStats.Current.MagicalAttack</p>
+<p>Физ.Защ.: @character.CalculatedStats.Current.PhysicalDefence Маг.Защ.: @character.CalculatedStats.Current.MagicalDefence</p>
+<p>Физ.Точность: @character.CalculatedStats.Current.PhysicalAccuracy Маг.Точность.: @character.CalculatedStats.Current.MagicalAccuracy</p>
+<p>Физ.Уклонение: @character.CalculatedStats.Current.PhysicalEvasion Маг.Уклонение: @character.CalculatedStats.Current.MagicalEvasion</p>
+<p>Физ.Крит.Атк.: @character.CalculatedStats.Current.CriticalPhysicalAttack Маг.Крит.Атк.: @character.CalculatedStats.Current.CriticalMagicalAttack</p>
+<p>Скорость Атк.: @character.CalculatedStats.Current.SpeedPhysicalAttack Скорость Маг.: @character.CalculatedStats.Current.SpeedMagicalAttack</p>
+<p>Скорость: @character.CalculatedStats.Current.SpeedRun</p>
+<p style="font-weight:bold">Базовые характеристики</p>
+<p>СИЛ: @character.CalculatedStats.Base.STR ЛВК: @character.CalculatedStats.Base.DEX ВЫН: @character.CalculatedStats.Base.CON</p>
+<p>ИНТ: @character.CalculatedStats.Base.INT МДР: @character.CalculatedStats.Base.WIT ДУХ: @character.CalculatedStats.Base.MEN</p>
+<p>УДЧ: @character.CalculatedStats.Base.LUC ХАР: @character.CalculatedStats.Base.CHA</p>
+@*<img src="SkillPictures/Skill_30400.jpg" asp-append-version="true" alt="First slide" title="Крепкое тело Lv 1: Max. HP +1%, Speed +4" />*@
+@*<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
+    Tooltip with HTML
+</button>*@
+<br>
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<button class="btn btn-primary" @onclick="Reculculate">Reculculate</button>
+<p style="font-weight:bold">StatBonus</p>
+<p>HpPercentBonus: @StatBonus.HpPercentBonus</p>
+<p>HpStaticBonus: @StatBonus.HpStaticBonus</p>
+<p>SpeedStaticBonus: @StatBonus.SpeedStaticBonus</p>
+
+<h1>Counter</h1>
+
+<p>Current count: @currentCount</p>
+<p></p>
+
+@using L2Calc.Common
+@using L2Calc.Common.Models
+@using L2Calc.Common.Enums
+@code {
+
+    private L2Calc.Common.Models.Сharacter character { get; set; }
+    private BaseCharacteristics characteristics => StatHelper.GetCharacteristics(CharacterType.Arteya);
+    private StatBonus StatBonus => StatHelper.GetStatBonuses(StatHelper.GetSkills(new List<SkillCode> { SkillCode.ErtheiaTenacity }));
+    private int currentCount = 0;
+
+    private decimal cpPoints = 0;
+    private decimal hpPoints = 0;
+    private decimal mpPoints = 0;
+
+    private CharacterType CharacterType { get; set; }
+
+    //private int strength = 39;
+    //private int dexterity = 30;
+    //private int endurance = 37;
+
+    //private int intelligence = 85;
+    //private int wisdom = 77;
+    //private int spirit = 73;
+
+    //private int lucky = 32;
+    //private int charisma = 43;
+
+    protected override void OnInitialized()
+    {
+        character = CharactersTable.GetStartСharacter(CharacterType.Arteya);
+    }
+
+    //    Чтобы выполнить асинхронную операцию, переопределите OnInitializedAsync и используйте в операции оператор await.    //    C#    //Копировать
+    //protected override async Task OnInitializedAsync()
+    //    {
+    //        await ...
+    //}
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+    private void Reculculate()
+    {
+        character.ReculculateStats();
+    }
+
+    protected void DoStuff(ChangeEventArgs e)
+    {
+        if (int.TryParse(e.Value.ToString(), out var intValue))
+        {
+            CharacterType = (CharacterType)intValue;
+            character = CharactersTable.GetStartСharacter(CharacterType);
+            //RefreshItemList(PageNumber);
+        }
+    }
+}

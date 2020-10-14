@@ -2,6 +2,7 @@
 {
     using System.Collections.Generic;
     using System.Linq;
+    using L2Calc.Common.Enums;
     using L2Calc.Common.Models;
 
     public static class SampleCharacterStats
@@ -18,8 +19,8 @@
                 character.Items == null &&
                 character.Baffs == null &&
                 character.Class == "Ertheia Fighter" &&
-                character.Skills.All(x => skills1.Any(y => y == x)) &&
-                skills1.All(x => character.Skills.Any(y => y == x))
+                character.CodeSkills.All(x => skills1.Any(y => y == x)) &&
+                skills1.All(x => character.CodeSkills.Any(y => y == x))
                 )
             {
                 return null;
