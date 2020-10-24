@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "L2Calc.dll": "sha256-rXYAIojpaUsEqHvFjbkdcqe6Qi0kJ\/2Tmx7hlY\/320c=",
+      "L2Calc.dll": "sha256-D7OgtghOZ9V31OfQ\/x8xeLSYylrO9sMDj8FSim9yfNg=",
       "System.Net.Http.Json.dll": "sha256-99dseBOagY3mzu5Y8Eqm8gRI+o8QbbCp7R2Ew9bQ+5E=",
       "System.Buffers.dll": "sha256-ZxXy75PYbzJxNfAc\/SAP1nUYm4gt1jSaOpFnBb9m85M=",
       "mscorlib.dll": "sha256-BaZPMj95+YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=",
@@ -44,6 +44,7 @@
       "System.ComponentModel.DataAnnotations.dll": "sha256-LIfCYwg+PHltTK4z3EnbSkA7m2cn8JS4jHVthdKrDF8=",
       "Microsoft.AspNetCore.Components.dll": "sha256-PEg9ghiKSWBTX0jq8pFDvv2Yvw92Y8W0ELtWrSE4fhA=",
       "Microsoft.Extensions.Logging.Abstractions.dll": "sha256-6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=",
+      "Newtonsoft.Json.dll": "sha256-mRd6TL4DYldo1ko9czkjEDcoiPdMPrJxz3dekwV6OOY=",
       "L2Calc.Common.dll": "sha256-DxPduWZknn\/65uD83eaXyaooNQMgUZxpod2wfDnJWnM=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-FJ+rEgcx6ljTxwbRXZSUGfrDKpVvOxHCSfNxbnXNn3M=",
       "Microsoft.Extensions.DependencyInjection.dll": "sha256-oK1Bjv95fH+hSbogUkJE+xDAI203kJG6lL6Sm\/NuPWg=",
@@ -61,7 +62,7 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs="
     },
     "pdb": {
-      "L2Calc.pdb": "sha256-EjZPJM1af1rE4HY0XfqmB9UosU8mUjvhRA86VvvfEUo=",
+      "L2Calc.pdb": "sha256-q3C6XLYH+vMnGVOgTNaoryKvYEY4XBA5gLS8cm0LmnQ=",
       "L2Calc.Common.pdb": "sha256-opYfGFceNI0NExFxVBf09h9OIodSXKdwvEf1Z3h6RFM="
     },
     "runtime": {
