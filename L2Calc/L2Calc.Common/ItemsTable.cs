@@ -8,7 +8,51 @@ namespace L2Calc.Common
         {
             switch (itemId)
             {
-                //48568	Фрагмент Агатиона Стража	-65%	150000		0	150000		час назад
+                case "47556":
+                    return new Item
+                    {
+                        Id = "47556",
+                        Name = "Звездная Пыль",
+                        EngName = "",
+                        Note = "",
+                        Description = "Позволяет создать Браслет Семени Низкого Качества.",
+                        Code = ItemCode.None,
+                        Weight = 1,
+                        Lifetime = 0,
+                        Price = 1000000,
+                        GreenPrice = 3500000,
+                        RedPrice = 3000000,
+                    };
+                case "3031":
+                    return new Item
+                    {
+                        Id = "3031",
+                        Name = "Руда Духов",
+                        EngName = "",
+                        Note = "",
+                        Description = "",
+                        Code = ItemCode.None,
+                        Weight = 0,
+                        Lifetime = 0,
+                        Price = 400,
+                        GreenPrice = 460,
+                        RedPrice = 460,
+                    };
+                case "736":
+                    return new Item
+                    {
+                        Id = "736",
+                        Name = "Свиток Телепорта",
+                        EngName = "",
+                        Note = "",
+                        Description = "",
+                        Code = ItemCode.None,
+                        Weight = 10,
+                        Lifetime = 0,
+                        Price = 400,
+                        GreenPrice = 460,
+                        RedPrice = 460,
+                    };
                 case "48568":
                     return new Item
                     {
@@ -54,6 +98,8 @@ namespace L2Calc.Common
                         GreenPrice = 31920000,
                         RedPrice = 1500000,
                     };
+
+                #region Краска
                 case "17631":
                     return new Item
                     {
@@ -68,21 +114,6 @@ namespace L2Calc.Common
                         Price = 173100,
                         GreenPrice = 173100,
                         RedPrice = 86550,
-                    };
-                case "17714"://ItemCode.LegendaryMenDyeLv5:
-                    return new Item
-                    {
-                        Id = "17714",
-                        Name = "Легендарная Краска Ур. 5 - ДУХ",
-                        EngName = "Legendary MEN Dye Lv. 5",
-                        Note = "ДУХ+5 ИНТ+1 Сопротивление святости +25",
-                        Description = "Если отдать 10 флаконов этой краски Торговцу Красками, то персонаж получит татуировку, изменяющую его характеристики. Требования: Все классы после перерождения и 3-го освобождения.",
-                        Code = ItemCode.LegendaryMenDyeLv5,
-                        Weight = 150,
-                        Lifetime = 0,
-                        Price = 10892425,
-                        GreenPrice = 10892425,
-                        RedPrice = 5446212,
                     };
                 case "17644":
                     return new Item
@@ -99,47 +130,57 @@ namespace L2Calc.Common
                         GreenPrice = 274425,
                         RedPrice = 137212,
                     };
-               //case SkillCode.ErtheiaTenacity:
-               //    return new Skill
-               //    {
-               //        Code = SkillCode.ErtheiaTenacity,
-               //        Name = "Крепкое тело Lv 1",
-               //        Image = "SkillPictures/Skill_30401.jpg",
-               //        StatBonus = new StatBonus
-               //        {
-               //            HpPercentBonus = 1,
-               //            HpStaticBonus = 0,
-               //            SpeedStaticBonus = 4,
-               //        }
-               //    };
-               //case SkillCode.ErtheiaEfficacy:
-               //    return new Skill
-               //    {
-               //        Code = SkillCode.ErtheiaTenacity,
-               //        Name = "",
-               //        Image = "SkillPictures/Skill_30402.jpg",
-               //        StatBonus = new StatBonus
-               //        {
-               //            HpPercentBonus = 0,
-               //            HpStaticBonus = 0,
-               //            SpeedStaticBonus = 0,
-               //        }
-               //    };
-               default:
+                case "17707":
+                    return new Item
+                    {
+                        Id = "17707",
+                        Name = "Древняя Краска Ур. 5 - МДР",
+                        EngName = "",
+                        Note = "",
+                        Description = "",
+                        Code = ItemCode.None,
+                        Weight = 150,
+                        Lifetime = 0,
+                        Price = 9931750,
+                        GreenPrice = 9931750,
+                        RedPrice = 4965875,
+                    };
+                case "17713":
+                    return new Item
+                    {
+                        Id = "17713",
+                        Name = "Легендарная Краска Ур. 5 - МДР",
+                        EngName = "",
+                        Note = "",
+                        Description = "",
+                        Code = ItemCode.None,
+                        Weight = 150,
+                        Lifetime = 0,
+                        Price = 10892425,
+                        GreenPrice = 10892425,
+                        RedPrice = 5446212,
+                    };
+                case "17714"://ItemCode.LegendaryMenDyeLv5:
+                    return new Item
+                    {
+                        Id = "17714",
+                        Name = "Легендарная Краска Ур. 5 - ДУХ",
+                        EngName = "Legendary MEN Dye Lv. 5",
+                        Note = "ДУХ+5 ИНТ+1 Сопротивление святости +25",
+                        Description = "Если отдать 10 флаконов этой краски Торговцу Красками, то персонаж получит татуировку, изменяющую его характеристики. Требования: Все классы после перерождения и 3-го освобождения.",
+                        Code = ItemCode.LegendaryMenDyeLv5,
+                        Weight = 150,
+                        Lifetime = 0,
+                        Price = 10892425,
+                        GreenPrice = 10892425,
+                        RedPrice = 5446212,
+                    };                
+                #endregion Краска
+                                   
+                default:
                     break;
             }
             return null;
         }
     }
 }
-
-
-//MP +31, Физ./ Маг. Точность +4,
-//сила Физ. Крит. Атк./ сила Крит. Атк. маг. умений +15%,
-//Скор. Атк./ Скор Маг. +5%,
-//шанс и сопротивление замешательству/ помехам +25%.
-//MP +31, Физ./ Маг. Точность +4, 
-//шанс Физ. Крит. Атк./ шанс Крит. Атк. маг. умений +20,
-//сила Физ./ Маг. Крит. Атк. +15%, 
-//шанс и сопротивление замешательству/ заражению +25%.
-// Кольцо Души Королевы Муравьев
