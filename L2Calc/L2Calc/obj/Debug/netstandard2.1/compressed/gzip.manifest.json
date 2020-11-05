@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\D7OgtghOZ9V31OfQ-x8xeLSYylrO9sMDj8FSim9yfNg=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\LVbsPA5YKaWLSF64gbJrYOcIMRXkphVuiNumMUBJtfY=.hash",
       "Source": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\L2Calc.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/L2Calc.dll.gz"
     },
@@ -191,9 +191,24 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.gz"
     },
     {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\x7ZCVHnn2oNWvvNwKfgfD2IZqyMLNfJW5xdeBxhjoP4=.hash",
+      "Source": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\L2on.Data.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/L2on.Data.dll.gz"
+    },
+    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\mRd6TL4DYldo1ko9czkjEDcoiPdMPrJxz3dekwV6OOY=.hash",
       "Source": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Newtonsoft.Json.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Newtonsoft.Json.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\A4_6-yKbXS2vs7Vr1quzSX26JTW4l3sDC1EazeKyye0=.hash",
+      "Source": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Text.Encoding.CodePages.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Text.Encoding.CodePages.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\bpMzToXzu1UdWEpbjU-qEglP6Bl0bs5AabAvfqBiyP0=.hash",
+      "Source": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\HtmlAgilityPack.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/HtmlAgilityPack.dll.gz"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\DxPduWZknn-65uD83eaXyaooNQMgUZxpod2wfDnJWnM=.hash",
@@ -271,9 +286,19 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\q3C6XLYH_vMnGVOgTNaoryKvYEY4XBA5gLS8cm0LmnQ=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\O6bZwEU36NXVwoN8W6HtYKhmCNqZnGXYi2ThfR8AfQc=.hash",
       "Source": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\L2Calc.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/L2Calc.pdb.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\XELwNBWjWGEe1axgJ1CM_WCp1fqngcTrr_A_gZuwQMk=.hash",
+      "Source": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\L2on.Data.pdb",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/L2on.Data.pdb.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\-v4FoWJkS8pwHCoNcMI27sKaslKTMSDqdTOeVJR71Zo=.hash",
+      "Source": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\HtmlAgilityPack.pdb",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/HtmlAgilityPack.pdb.gz"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\opYfGFceNI0NExFxVBf09h9OIodSXKdwvEf1Z3h6RFM=.hash",
@@ -301,7 +326,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\fdDKX1t7uZpJkJtDpM5rz-X0RpCAohaIs2lumu4GCkY=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\fOW5mo6wvKMG30CoqMWoN47hBUlMgv6oxS4l9gLvulc=.hash",
       "Source": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     }

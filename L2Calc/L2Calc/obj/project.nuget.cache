@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "czAeRh32Iqgyi//6xgzkue/oDmzu52n+4wu1u9cls/twVUPQLiQIbg3jD/U1Edzk4afKWHhx0yqHb1hkbyy8Aw==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc\\L2Calc.csproj",
+  "dgSpecHash": "jY/SJNJO/LxeX4R/KBQZ/dLSgvoIMBV6KFyYvSI7t1uG3HkDs9lZz0lYvF80sqzlsp0nM0pyBOfS58rF9iZ6sw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc\\L2Calc\\L2Calc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Zver\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
     "C:\\Users\\Zver\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.6\\microsoft.aspnetcore.components.3.1.6.nupkg.sha512",
@@ -43,5 +43,15 @@
     "C:\\Users\\Zver\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\Zver\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Проект L2on.Data несовместим с netstandard2.1 (.NETStandard,Version=v2.1). Проект L2on.Data поддерживает: netcoreapp3.1 (.NETCoreApp,Version=v3.1)",
+      "libraryId": "L2on.Data",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    }
+  ]
 }

@@ -1,0 +1,48 @@
+﻿@page "/VenirsTalismans"
+
+<h1>Талисман Бенира</h1>
+
+<p>Current count: @currentCount</p>
+<p></p>
+
+@foreach (var item in MyItems)
+{
+    <p>@item.GetString()</p>
+}
+
+@using L2Calc.Common
+@using L2Calc.Common.Models
+@using L2Calc.Common.Enums
+@using L2on.Data
+@using L2on.Data.Models
+
+@code {
+
+    private L2Calc.Common.Models.Сharacter character => CharactersTable.GetFirstСharacter();
+    private BaseCharacteristics characteristics => StatHelper.GetCharacteristics(CharacterType.Arteya);
+    private StatBonus StatBonus => StatHelper.GetStatBonuses(StatHelper.GetSkills(new List<SkillCode> { SkillCode.ErtheiaTenacity }));
+    private int currentCount = 0;
+
+    private decimal cpPoints = 0;
+    private decimal hpPoints = 0;
+    private decimal mpPoints = 0;
+
+    private MyItem[] MyItems => L2onData.GetVenirsTalismans().ToArray();
+
+    //private int strength = 39;
+    //private int dexterity = 30;
+    //private int endurance = 37;
+
+    //private int intelligence = 85;
+    //private int wisdom = 77;
+    //private int spirit = 73;
+
+    //private int lucky = 32;
+    //private int charisma = 43;
+
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}

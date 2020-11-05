@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "L2Calc.dll": "sha256-D7OgtghOZ9V31OfQ\/x8xeLSYylrO9sMDj8FSim9yfNg=",
+      "L2Calc.dll": "sha256-LVbsPA5YKaWLSF64gbJrYOcIMRXkphVuiNumMUBJtfY=",
       "System.Net.Http.Json.dll": "sha256-99dseBOagY3mzu5Y8Eqm8gRI+o8QbbCp7R2Ew9bQ+5E=",
       "System.Buffers.dll": "sha256-ZxXy75PYbzJxNfAc\/SAP1nUYm4gt1jSaOpFnBb9m85M=",
       "mscorlib.dll": "sha256-BaZPMj95+YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=",
@@ -44,7 +44,10 @@
       "System.ComponentModel.DataAnnotations.dll": "sha256-LIfCYwg+PHltTK4z3EnbSkA7m2cn8JS4jHVthdKrDF8=",
       "Microsoft.AspNetCore.Components.dll": "sha256-PEg9ghiKSWBTX0jq8pFDvv2Yvw92Y8W0ELtWrSE4fhA=",
       "Microsoft.Extensions.Logging.Abstractions.dll": "sha256-6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=",
+      "L2on.Data.dll": "sha256-x7ZCVHnn2oNWvvNwKfgfD2IZqyMLNfJW5xdeBxhjoP4=",
       "Newtonsoft.Json.dll": "sha256-mRd6TL4DYldo1ko9czkjEDcoiPdMPrJxz3dekwV6OOY=",
+      "System.Text.Encoding.CodePages.dll": "sha256-A4+6\/yKbXS2vs7Vr1quzSX26JTW4l3sDC1EazeKyye0=",
+      "HtmlAgilityPack.dll": "sha256-bpMzToXzu1UdWEpbjU\/qEglP6Bl0bs5AabAvfqBiyP0=",
       "L2Calc.Common.dll": "sha256-DxPduWZknn\/65uD83eaXyaooNQMgUZxpod2wfDnJWnM=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-FJ+rEgcx6ljTxwbRXZSUGfrDKpVvOxHCSfNxbnXNn3M=",
       "Microsoft.Extensions.DependencyInjection.dll": "sha256-oK1Bjv95fH+hSbogUkJE+xDAI203kJG6lL6Sm\/NuPWg=",
@@ -62,7 +65,9 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs="
     },
     "pdb": {
-      "L2Calc.pdb": "sha256-q3C6XLYH+vMnGVOgTNaoryKvYEY4XBA5gLS8cm0LmnQ=",
+      "L2Calc.pdb": "sha256-O6bZwEU36NXVwoN8W6HtYKhmCNqZnGXYi2ThfR8AfQc=",
+      "L2on.Data.pdb": "sha256-XELwNBWjWGEe1axgJ1CM+WCp1fqngcTrr+A+gZuwQMk=",
+      "HtmlAgilityPack.pdb": "sha256-\/v4FoWJkS8pwHCoNcMI27sKaslKTMSDqdTOeVJR71Zo=",
       "L2Calc.Common.pdb": "sha256-opYfGFceNI0NExFxVBf09h9OIodSXKdwvEf1Z3h6RFM="
     },
     "runtime": {

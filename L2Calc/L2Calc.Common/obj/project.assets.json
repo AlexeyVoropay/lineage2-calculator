@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc.Common\\L2Calc.Common.csproj",
+      "projectUniqueName": "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc\\L2Calc.Common\\L2Calc.Common.csproj",
       "projectName": "L2Calc.Common",
-      "projectPath": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc.Common\\L2Calc.Common.csproj",
+      "projectPath": "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc\\L2Calc.Common\\L2Calc.Common.csproj",
       "packagesPath": "C:\\Users\\Zver\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc.Common\\obj\\",
+      "outputPath": "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc\\L2Calc.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Zver\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc\\L2Calc.csproj": {}
+    "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc\\L2Calc\\L2Calc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc.Common\\L2Calc.Common.csproj": {
+    "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc\\L2Calc.Common\\L2Calc.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc.Common\\L2Calc.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc\\L2Calc.Common\\L2Calc.Common.csproj",
         "projectName": "L2Calc.Common",
-        "projectPath": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc.Common\\L2Calc.Common.csproj",
+        "projectPath": "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc\\L2Calc.Common\\L2Calc.Common.csproj",
         "packagesPath": "C:\\Users\\Zver\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc.Common\\obj\\",
+        "outputPath": "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc\\L2Calc.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Zver\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,14 +60,14 @@
         }
       }
     },
-    "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc\\L2Calc.csproj": {
+    "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc\\L2Calc\\L2Calc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc\\L2Calc.csproj",
+        "projectUniqueName": "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc\\L2Calc\\L2Calc.csproj",
         "projectName": "L2Calc",
-        "projectPath": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc\\L2Calc.csproj",
+        "projectPath": "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc\\L2Calc\\L2Calc.csproj",
         "packagesPath": "C:\\Users\\Zver\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc\\obj\\",
+        "outputPath": "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc\\L2Calc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Zver\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -84,8 +84,11 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc.Common\\L2Calc.Common.csproj": {
-                "projectPath": "C:\\Users\\Zver\\Desktop\\L2Calc\\L2Calc\\L2Calc.Common\\L2Calc.Common.csproj"
+              "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc\\L2Calc.Common\\L2Calc.Common.csproj": {
+                "projectPath": "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc\\L2Calc.Common\\L2Calc.Common.csproj"
+              },
+              "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc\\L2on.Data\\L2on.Data.csproj": {
+                "projectPath": "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc\\L2on.Data\\L2on.Data.csproj"
               }
             }
           }
@@ -132,8 +135,74 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc\\L2on.Data\\L2on.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc\\L2on.Data\\L2on.Data.csproj",
+        "projectName": "L2on.Data",
+        "projectPath": "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc\\L2on.Data\\L2on.Data.csproj",
+        "packagesPath": "C:\\Users\\Zver\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc\\L2on.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Zver\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Zver\\Desktop\\Projects\\goplatform\\nugets": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc\\L2Calc.Common\\L2Calc.Common.csproj": {
+                "projectPath": "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc\\L2Calc.Common\\L2Calc.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.24, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },

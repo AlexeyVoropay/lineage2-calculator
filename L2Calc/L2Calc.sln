@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L2Calc", "L2Calc\L2Calc.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L2Calc.Common", "L2Calc.Common\L2Calc.Common.csproj", "{6CA9D0A0-0823-45D6-89A0-079461DAC40C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{5FE95AA8-9380-47BF-BB78-C54905CFE0DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConsole", "TestConsole\TestConsole.csproj", "{5FE95AA8-9380-47BF-BB78-C54905CFE0DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L2on.Data", "L2on.Data\L2on.Data.csproj", "{D249EB91-C013-4520-8FFC-402CBA70F184}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L2onNew.Web", "L2onNew.Web\L2onNew.Web.csproj", "{1588415E-20FB-4B25-8755-660B9D101B5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{5FE95AA8-9380-47BF-BB78-C54905CFE0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FE95AA8-9380-47BF-BB78-C54905CFE0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FE95AA8-9380-47BF-BB78-C54905CFE0DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D249EB91-C013-4520-8FFC-402CBA70F184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D249EB91-C013-4520-8FFC-402CBA70F184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D249EB91-C013-4520-8FFC-402CBA70F184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D249EB91-C013-4520-8FFC-402CBA70F184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1588415E-20FB-4B25-8755-660B9D101B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1588415E-20FB-4B25-8755-660B9D101B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1588415E-20FB-4B25-8755-660B9D101B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1588415E-20FB-4B25-8755-660B9D101B5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
