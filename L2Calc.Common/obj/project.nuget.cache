@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/yT7dkuvkzY7HjB9a5cabJDP2Uo0xgkqZtBXuON8wYyFmXwBsV1qGVtxrxIiAcb5eue92uetb4VuIAY3uBKA5g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc.Common\\L2Calc.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Zver\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Zver\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "MFjSaN9hOpCFrwjtoK4VxiL+GAOPA9EeMtWIff/8/Nyq4T5lInQKUN74YsPI3vZvVBfSkLVEV5yt2hHUv++oBA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\TestConsole\\TestConsole.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Zver\\.nuget\\packages\\htmlagilitypack\\1.11.24\\htmlagilitypack.1.11.24.nupkg.sha512",
+    "C:\\Users\\Zver\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.1\\microsoft.netcore.platforms.3.1.1.nupkg.sha512",
+    "C:\\Users\\Zver\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Zver\\.nuget\\packages\\system.text.encoding.codepages\\4.7.1\\system.text.encoding.codepages.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
