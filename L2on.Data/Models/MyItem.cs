@@ -15,6 +15,7 @@ namespace L2on.Data.Models
         public string SpottedTime { get; set; }
         public string Other { get; set; }
         public PriceType PriceType { get; set; }
+        public string GroupName { get; set; }
 
         public string GetString()
         {

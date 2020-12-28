@@ -124,8 +124,6 @@ C:\Users\Zver\Desktop\lineage2-calculator\L2Calc\L2onNew.Web\obj\Release\netcore
 C:\Users\Zver\Desktop\lineage2-calculator\L2Calc\L2onNew.Web\obj\Release\netcoreapp3.1\L2onNew.Web.genruntimeconfig.cache
 C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\bin\Release\netcoreapp3.1\appsettings.Development.json
 C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\bin\Release\netcoreapp3.1\appsettings.json
-C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\bin\Release\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\lineage2 - Web Deploy\profile.arm.json
 C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\bin\Release\netcoreapp3.1\L2onNew.Web.exe
 C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\bin\Release\netcoreapp3.1\L2onNew.Web.deps.json
 C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\bin\Release\netcoreapp3.1\L2onNew.Web.runtimeconfig.json
@@ -185,3 +183,7 @@ C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\obj\Release\netcoreapp3.1\
 C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\obj\Release\netcoreapp3.1\L2onNew.Web.dll
 C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\obj\Release\netcoreapp3.1\L2onNew.Web.pdb
 C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\obj\Release\netcoreapp3.1\L2onNew.Web.genruntimeconfig.cache
+C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\obj\Release\netcoreapp3.1\RazorDeclaration\Pages\FetchDataAll99.razor.g.cs
+C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\obj\Release\netcoreapp3.1\L2onNew.Web.RazorComponent.output.cache
+C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\obj\Release\netcoreapp3.1\Razor\Pages\FetchDataAll99.razor.g.cs
+C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\obj\Release\netcoreapp3.1\scopedcss\bundle\L2onNew.Web.styles.css

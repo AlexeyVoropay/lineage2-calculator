@@ -238,6 +238,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
             "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc.Common\\L2Calc.Common.csproj": {
               "projectPath": "C:\\Users\\Zver\\Desktop\\lineage2-calculator\\L2Calc.Common\\L2Calc.Common.csproj"
@@ -253,6 +254,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "HtmlAgilityPack": {
             "target": "Package",
@@ -282,7 +284,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

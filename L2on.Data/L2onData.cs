@@ -98,9 +98,9 @@ namespace L2on.Data
             return PriceType.Yellow;
         }
 
-            public static IEnumerable<MyItem> GetGroupItems(HtmlDocument htmlDocument, string nodeName)
+            public static IEnumerable<MyItem> GetGroupItems(HtmlDocument htmlDocument, string groupName)
         {
-            HtmlNode group = htmlDocument.GetElementbyId(nodeName);
+            HtmlNode group = htmlDocument.GetElementbyId(groupName);
             if (group == null)
                 return new MyItem[0];
             HtmlNode specificNode001 = group.SelectSingleNode("table");
@@ -137,6 +137,7 @@ namespace L2on.Data
                         : (double?)null,
                     Other = fields[3].InnerHtml,
                     SpottedTime = fields[4].InnerHtml,
+                    GroupName = groupName,
                 };
                 myItems.Add(myItem);
             }

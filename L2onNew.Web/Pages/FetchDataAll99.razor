@@ -1,0 +1,77 @@
+﻿@page "/all99"
+
+@using L2onNew.Web.Data
+@inject WeatherForecastService ForecastService
+
+<h1>Все предметы (-99%)</h1>
+
+@if (talismans == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Идентификатор</th>
+                <th>Предмет</th>
+                <th>Процент</th>
+                <th>Цена</th>
+                <th>Тип цены</th>
+                <th>Моя цена</th>
+                <th>Разница</th>
+                <th>Разница в %</th>
+                <th>Замечен</th>
+                <th>Что-то</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var talisman in talismans)
+            {
+            <tr>
+                <td><img height="30" width="30" src="@(talisman.Image)"></td>
+                <td>@talisman.Id</td>
+                <td>@talisman.Name</td>
+                <td>@(talisman.Percent.HasValue ? $"{talisman.Percent.ToString()}%" : "")</td>
+                <td>@talisman.Price</td>
+                <td>@((MarkupString)GetTypeString(talisman.PriceType))</td>
+                <td>@talisman.MyPriceText</td>
+                <td>@(talisman.Price - talisman.MyPrice)</td>
+                <td>@(talisman.MyPrice != 0 ? $"{Math.Round((decimal)(talisman.Price - talisman.MyPrice)/(talisman.MyPrice)*100)} %" : "")</td>
+                <td>@talisman.SpottedTime</td>
+                <td>@talisman.Other</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+
+    private L2on.Data.Models.MyItem[] talismans;
+
+    private string GetTypeString(L2Calc.Common.Enums.PriceType type)
+    {
+        switch (type)
+        {
+            case L2Calc.Common.Enums.PriceType.None:
+                return "";
+            case L2Calc.Common.Enums.PriceType.Green:
+                return "<p style=\"color: green\">Green</p>";
+            case L2Calc.Common.Enums.PriceType.Yellow:
+                return "<p style=\"color: orange\">Yellow</p>";
+            case L2Calc.Common.Enums.PriceType.Red:
+                return "<p style=\"color: red\">Red</p>";
+            default:
+                break;
+        }
+        return "";
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        talismans = ForecastService.GetAll(-99);
+    }
+}
