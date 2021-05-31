@@ -11,6 +11,7 @@
 }
 else
 {
+    <p>group_recipe</p>
     <table class="table">
         <thead>
             <tr>
@@ -28,21 +29,169 @@ else
             </tr>
         </thead>
         <tbody>
-            @foreach (var talisman in talismans)
+            @foreach (var talisman in talismans.Where(x => x.GroupName == "group_recipe"))
             {
+                <tr>
+                    <td><img height="30" width="30" src="@(talisman.Image)"></td>
+                    <td>@talisman.Id</td>
+                    <td>@talisman.Name</td>
+                    <td>@(talisman.Percent.HasValue ? $"{talisman.Percent.ToString()}%" : "")</td>
+                    <td>@talisman.Price</td>
+                    <td>@((MarkupString)GetTypeString(talisman.PriceType))</td>
+                    <td>@talisman.MyPriceText</td>
+                    <td>@(talisman.Price - talisman.MyPrice)</td>
+                    <td>@(talisman.MyPrice != 0 ? $"{Math.Round((decimal)(talisman.Price - talisman.MyPrice)/(talisman.MyPrice)*100)} %" : "")</td>
+                    <td>@talisman.SpottedTime</td>
+                    <td>@talisman.Other</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <p>group_book</p>
+    <table class="table">
+        <thead>
             <tr>
-                <td><img height="30" width="30" src="@(talisman.Image)"></td>
-                <td>@talisman.Id</td>
-                <td>@talisman.Name</td>
-                <td>@(talisman.Percent.HasValue ? $"{talisman.Percent.ToString()}%" : "")</td>
-                <td>@talisman.Price</td>
-                <td>@((MarkupString)GetTypeString(talisman.PriceType))</td>
-                <td>@talisman.MyPriceText</td>
-                <td>@(talisman.Price - talisman.MyPrice)</td>
-                <td>@(talisman.MyPrice != 0 ? $"{Math.Round((decimal)(talisman.Price - talisman.MyPrice)/(talisman.MyPrice)*100)} %" : "")</td>
-                <td>@talisman.SpottedTime</td>
-                <td>@talisman.Other</td>
+                <th></th>
+                <th>Идентификатор</th>
+                <th>Предмет</th>
+                <th>Процент</th>
+                <th>Цена</th>
+                <th>Тип цены</th>
+                <th>Моя цена</th>
+                <th>Разница</th>
+                <th>Разница в %</th>
+                <th>Замечен</th>
+                <th>Что-то</th>
             </tr>
+        </thead>
+        <tbody>
+            @foreach (var talisman in talismans.Where(x => x.GroupName == "group_book"))
+            {
+                <tr>
+                    <td><img height="30" width="30" src="@(talisman.Image)"></td>
+                    <td>@talisman.Id</td>
+                    <td>@talisman.Name</td>
+                    <td>@(talisman.Percent.HasValue ? $"{talisman.Percent.ToString()}%" : "")</td>
+                    <td>@talisman.Price</td>
+                    <td>@((MarkupString)GetTypeString(talisman.PriceType))</td>
+                    <td>@talisman.MyPriceText</td>
+                    <td>@(talisman.Price - talisman.MyPrice)</td>
+                    <td>@(talisman.MyPrice != 0 ? $"{Math.Round((decimal)(talisman.Price - talisman.MyPrice)/(talisman.MyPrice)*100)} %" : "")</td>
+                    <td>@talisman.SpottedTime</td>
+                    <td>@talisman.Other</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <p>group_weapon</p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Идентификатор</th>
+                <th>Предмет</th>
+                <th>Процент</th>
+                <th>Цена</th>
+                <th>Тип цены</th>
+                <th>Моя цена</th>
+                <th>Разница</th>
+                <th>Разница в %</th>
+                <th>Замечен</th>
+                <th>Что-то</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var talisman in talismans.Where(x => x.GroupName == "group_weapon"))
+            {
+                <tr>
+                    <td><img height="30" width="30" src="@(talisman.Image)"></td>
+                    <td>@talisman.Id</td>
+                    <td>@talisman.Name</td>
+                    <td>@(talisman.Percent.HasValue ? $"{talisman.Percent.ToString()}%" : "")</td>
+                    <td>@talisman.Price</td>
+                    <td>@((MarkupString)GetTypeString(talisman.PriceType))</td>
+                    <td>@talisman.MyPriceText</td>
+                    <td>@(talisman.Price - talisman.MyPrice)</td>
+                    <td>@(talisman.MyPrice != 0 ? $"{Math.Round((decimal)(talisman.Price - talisman.MyPrice)/(talisman.MyPrice)*100)} %" : "")</td>
+                    <td>@talisman.SpottedTime</td>
+                    <td>@talisman.Other</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <p>group_armor</p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Идентификатор</th>
+                <th>Предмет</th>
+                <th>Процент</th>
+                <th>Цена</th>
+                <th>Тип цены</th>
+                <th>Моя цена</th>
+                <th>Разница</th>
+                <th>Разница в %</th>
+                <th>Замечен</th>
+                <th>Что-то</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var talisman in talismans.Where(x => x.GroupName == "group_armor"))
+            {
+                <tr>
+                    <td><img height="30" width="30" src="@(talisman.Image)"></td>
+                    <td>@talisman.Id</td>
+                    <td>@talisman.Name</td>
+                    <td>@(talisman.Percent.HasValue ? $"{talisman.Percent.ToString()}%" : "")</td>
+                    <td>@talisman.Price</td>
+                    <td>@((MarkupString)GetTypeString(talisman.PriceType))</td>
+                    <td>@talisman.MyPriceText</td>
+                    <td>@(talisman.Price - talisman.MyPrice)</td>
+                    <td>@(talisman.MyPrice != 0 ? $"{Math.Round((decimal)(talisman.Price - talisman.MyPrice) / (talisman.MyPrice) * 100)} %" : "")</td>
+                    <td>@talisman.SpottedTime</td>
+                    <td>@talisman.Other</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <p>остальное</p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Идентификатор</th>
+                <th>Предмет</th>
+                <th>Процент</th>
+                <th>Цена</th>
+                <th>Тип цены</th>
+                <th>Моя цена</th>
+                <th>Разница</th>
+                <th>Разница в %</th>
+                <th>Замечен</th>
+                <th>Что-то</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var talisman in talismans.Where(x => x.GroupName != "group_recipe" && x.GroupName != "group_book" && x.GroupName != "group_weapon" && x.GroupName != "group_armor"))
+            {
+                <tr>
+                    <td><img height="30" width="30" src="@(talisman.Image)"></td>
+                    <td>@talisman.Id</td>
+                    <td>@talisman.Name</td>
+                    <td>@(talisman.Percent.HasValue ? $"{talisman.Percent.ToString()}%" : "")</td>
+                    <td>@talisman.Price</td>
+                    <td>@((MarkupString)GetTypeString(talisman.PriceType))</td>
+                    <td>@talisman.MyPriceText</td>
+                    <td>@(talisman.Price - talisman.MyPrice)</td>
+                    <td>@(talisman.MyPrice != 0 ? $"{Math.Round((decimal)(talisman.Price - talisman.MyPrice)/(talisman.MyPrice)*100)} %" : "")</td>
+                    <td>@talisman.SpottedTime</td>
+                    <td>@talisman.Other</td>
+                </tr>
             }
         </tbody>
     </table>

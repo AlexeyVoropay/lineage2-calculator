@@ -79,10 +79,11 @@ using L2onNew.Web.Shared;
         {
             __builder.OpenElement(0, "div");
             __builder.AddAttribute(1, "class", "top-row pl-4 navbar navbar-dark");
-            __builder.AddMarkupContent(2, "<a class=\"navbar-brand\" href>L2onNew.Web</a>\r\n    ");
-            __builder.OpenElement(3, "button");
-            __builder.AddAttribute(4, "class", "navbar-toggler");
-            __builder.AddAttribute(5, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
+            __builder.AddMarkupContent(2, "\r\n    ");
+            __builder.AddMarkupContent(3, "<a class=\"navbar-brand\" href>L2onNew.Web</a>\r\n    ");
+            __builder.OpenElement(4, "button");
+            __builder.AddAttribute(5, "class", "navbar-toggler");
+            __builder.AddAttribute(6, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
 #nullable restore
 #line 3 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Shared\NavMenu.razor"
                                              ToggleNavMenu
@@ -91,12 +92,13 @@ using L2onNew.Web.Shared;
 #line hidden
 #nullable disable
             ));
-            __builder.AddMarkupContent(6, "<span class=\"navbar-toggler-icon\"></span>");
+            __builder.AddMarkupContent(7, "\r\n        <span class=\"navbar-toggler-icon\"></span>\r\n    ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(8, "\r\n");
             __builder.CloseElement();
-            __builder.AddMarkupContent(7, "\r\n\r\n");
-            __builder.OpenElement(8, "div");
-            __builder.AddAttribute(9, "class", 
+            __builder.AddMarkupContent(9, "\r\n\r\n");
+            __builder.OpenElement(10, "div");
+            __builder.AddAttribute(11, "class", 
 #nullable restore
 #line 8 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Shared\NavMenu.razor"
              NavMenuCssClass
@@ -105,7 +107,7 @@ using L2onNew.Web.Shared;
 #line hidden
 #nullable disable
             );
-            __builder.AddAttribute(10, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
+            __builder.AddAttribute(12, "onclick", Microsoft.AspNetCore.Components.EventCallback.Factory.Create<Microsoft.AspNetCore.Components.Web.MouseEventArgs>(this, 
 #nullable restore
 #line 8 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Shared\NavMenu.razor"
                                         ToggleNavMenu
@@ -114,62 +116,73 @@ using L2onNew.Web.Shared;
 #line hidden
 #nullable disable
             ));
-            __builder.OpenElement(11, "ul");
-            __builder.AddAttribute(12, "class", "nav flex-column");
-            __builder.OpenElement(13, "li");
-            __builder.AddAttribute(14, "class", "nav-item px-3");
-            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(15);
-            __builder.AddAttribute(16, "class", "nav-link");
-            __builder.AddAttribute(17, "href", "");
-            __builder.AddAttribute(18, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
-                __builder2.AddMarkupContent(19, "<span class=\"oi oi-list-rich\" aria-hidden=\"true\"></span> Талисманы Бенира\r\n            ");
+            __builder.AddMarkupContent(13, "\r\n    ");
+            __builder.OpenElement(14, "ul");
+            __builder.AddAttribute(15, "class", "nav flex-column");
+            __builder.AddMarkupContent(16, "\r\n        ");
+            __builder.OpenElement(17, "li");
+            __builder.AddAttribute(18, "class", "nav-item px-3");
+            __builder.AddMarkupContent(19, "\r\n            ");
+            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(20);
+            __builder.AddAttribute(21, "class", "nav-link");
+            __builder.AddAttribute(22, "href", "");
+            __builder.AddAttribute(23, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
+                __builder2.AddMarkupContent(24, "\r\n                <span class=\"oi oi-list-rich\" aria-hidden=\"true\"></span> Талисманы Бенира\r\n            ");
             }
             ));
             __builder.CloseComponent();
+            __builder.AddMarkupContent(25, "\r\n        ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(20, "\r\n        ");
-            __builder.OpenElement(21, "li");
-            __builder.AddAttribute(22, "class", "nav-item px-3");
-            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(23);
-            __builder.AddAttribute(24, "class", "nav-link");
-            __builder.AddAttribute(25, "href", "all");
-            __builder.AddAttribute(26, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
-                __builder2.AddMarkupContent(27, "<span class=\"oi oi-list-rich\" aria-hidden=\"true\"></span> Все (-50%)\r\n            ");
+            __builder.AddMarkupContent(26, "\r\n        ");
+            __builder.OpenElement(27, "li");
+            __builder.AddAttribute(28, "class", "nav-item px-3");
+            __builder.AddMarkupContent(29, "\r\n            ");
+            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(30);
+            __builder.AddAttribute(31, "class", "nav-link");
+            __builder.AddAttribute(32, "href", "all");
+            __builder.AddAttribute(33, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
+                __builder2.AddMarkupContent(34, "\r\n                <span class=\"oi oi-list-rich\" aria-hidden=\"true\"></span> Все (-50%)\r\n            ");
             }
             ));
             __builder.CloseComponent();
-            __builder.CloseElement();
-            __builder.AddMarkupContent(28, "\r\n        ");
-            __builder.OpenElement(29, "li");
-            __builder.AddAttribute(30, "class", "nav-item px-3");
-            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(31);
-            __builder.AddAttribute(32, "class", "nav-link");
-            __builder.AddAttribute(33, "href", "all80");
-            __builder.AddAttribute(34, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
-                __builder2.AddMarkupContent(35, "<span class=\"oi oi-list-rich\" aria-hidden=\"true\"></span> Все (-80%)\r\n            ");
-            }
-            ));
-            __builder.CloseComponent();
+            __builder.AddMarkupContent(35, "\r\n        ");
             __builder.CloseElement();
             __builder.AddMarkupContent(36, "\r\n        ");
             __builder.OpenElement(37, "li");
             __builder.AddAttribute(38, "class", "nav-item px-3");
-            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(39);
-            __builder.AddAttribute(40, "class", "nav-link");
-            __builder.AddAttribute(41, "href", "all99");
-            __builder.AddAttribute(42, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
-                __builder2.AddMarkupContent(43, "<span class=\"oi oi-list-rich\" aria-hidden=\"true\"></span> Все (-99%)\r\n            ");
+            __builder.AddMarkupContent(39, "\r\n            ");
+            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(40);
+            __builder.AddAttribute(41, "class", "nav-link");
+            __builder.AddAttribute(42, "href", "all80");
+            __builder.AddAttribute(43, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
+                __builder2.AddMarkupContent(44, "\r\n                <span class=\"oi oi-list-rich\" aria-hidden=\"true\"></span> Все (-80%)\r\n            ");
             }
             ));
             __builder.CloseComponent();
+            __builder.AddMarkupContent(45, "\r\n        ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(44, "\r\n        ");
-            __builder.OpenElement(45, "li");
-            __builder.AddAttribute(46, "class", "nav-item px-3");
-            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(47);
-            __builder.AddAttribute(48, "class", "nav-link");
-            __builder.AddAttribute(49, "href", "home");
-            __builder.AddAttribute(50, "Match", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.Routing.NavLinkMatch>(
+            __builder.AddMarkupContent(46, "\r\n        ");
+            __builder.OpenElement(47, "li");
+            __builder.AddAttribute(48, "class", "nav-item px-3");
+            __builder.AddMarkupContent(49, "\r\n            ");
+            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(50);
+            __builder.AddAttribute(51, "class", "nav-link");
+            __builder.AddAttribute(52, "href", "all99");
+            __builder.AddAttribute(53, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
+                __builder2.AddMarkupContent(54, "\r\n                <span class=\"oi oi-list-rich\" aria-hidden=\"true\"></span> Все (-99%)\r\n            ");
+            }
+            ));
+            __builder.CloseComponent();
+            __builder.AddMarkupContent(55, "\r\n        ");
+            __builder.CloseElement();
+            __builder.AddMarkupContent(56, "\r\n        ");
+            __builder.OpenElement(57, "li");
+            __builder.AddAttribute(58, "class", "nav-item px-3");
+            __builder.AddMarkupContent(59, "\r\n            ");
+            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(60);
+            __builder.AddAttribute(61, "class", "nav-link");
+            __builder.AddAttribute(62, "href", "home");
+            __builder.AddAttribute(63, "Match", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.Routing.NavLinkMatch>(
 #nullable restore
 #line 31 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Shared\NavMenu.razor"
                                                          NavLinkMatch.All
@@ -178,25 +191,30 @@ using L2onNew.Web.Shared;
 #line hidden
 #nullable disable
             ));
-            __builder.AddAttribute(51, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
-                __builder2.AddMarkupContent(52, "<span class=\"oi oi-home\" aria-hidden=\"true\"></span> Home\r\n            ");
+            __builder.AddAttribute(64, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
+                __builder2.AddMarkupContent(65, "\r\n                <span class=\"oi oi-home\" aria-hidden=\"true\"></span> Home\r\n            ");
             }
             ));
             __builder.CloseComponent();
+            __builder.AddMarkupContent(66, "\r\n        ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(53, "\r\n        ");
-            __builder.OpenElement(54, "li");
-            __builder.AddAttribute(55, "class", "nav-item px-3");
-            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(56);
-            __builder.AddAttribute(57, "class", "nav-link");
-            __builder.AddAttribute(58, "href", "counter");
-            __builder.AddAttribute(59, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
-                __builder2.AddMarkupContent(60, "<span class=\"oi oi-plus\" aria-hidden=\"true\"></span> Counter\r\n            ");
+            __builder.AddMarkupContent(67, "\r\n        ");
+            __builder.OpenElement(68, "li");
+            __builder.AddAttribute(69, "class", "nav-item px-3");
+            __builder.AddMarkupContent(70, "\r\n            ");
+            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(71);
+            __builder.AddAttribute(72, "class", "nav-link");
+            __builder.AddAttribute(73, "href", "counter");
+            __builder.AddAttribute(74, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
+                __builder2.AddMarkupContent(75, "\r\n                <span class=\"oi oi-plus\" aria-hidden=\"true\"></span> Counter\r\n            ");
             }
             ));
             __builder.CloseComponent();
+            __builder.AddMarkupContent(76, "\r\n        ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(77, "\r\n    ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(78, "\r\n");
             __builder.CloseElement();
         }
         #pragma warning restore 1998

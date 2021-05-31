@@ -91,10 +91,12 @@ using L2onNew.Web.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 51 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Pages\FetchDataAll80.razor"
+#line 200 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Pages\FetchDataAll80.razor"
        
 
     private L2on.Data.Models.MyItem[] talismans;
+
+    private L2on.Data.Models.MyItem[] talismans2;
 
     private string GetTypeString(L2Calc.Common.Enums.PriceType type)
     {

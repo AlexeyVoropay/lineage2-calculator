@@ -85,7 +85,7 @@ using L2onNew.Web.Data;
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
-            __builder.AddMarkupContent(0, "<h1>Талисманы Бенира</h1>");
+            __builder.AddMarkupContent(0, "<h1>Талисманы Бенира</h1>\r\n\r\n");
 #nullable restore
 #line 8 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Pages\FetchData.razor"
  if (talismans == null)
@@ -94,7 +94,8 @@ using L2onNew.Web.Data;
 #line default
 #line hidden
 #nullable disable
-            __builder.AddMarkupContent(1, "<p><em>Loading...</em></p>");
+            __builder.AddContent(1, "    ");
+            __builder.AddMarkupContent(2, "<p><em>Loading...</em></p>\r\n");
 #nullable restore
 #line 11 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Pages\FetchData.razor"
 }
@@ -104,9 +105,13 @@ else
 #line default
 #line hidden
 #nullable disable
-            __builder.OpenElement(2, "table");
-            __builder.AddAttribute(3, "class", "table");
-            __builder.AddMarkupContent(4, @"<thead><tr><th></th>
+            __builder.AddContent(3, "    ");
+            __builder.OpenElement(4, "table");
+            __builder.AddAttribute(5, "class", "table");
+            __builder.AddMarkupContent(6, "\r\n        ");
+            __builder.AddMarkupContent(7, @"<thead>
+            <tr>
+                <th></th>
                 <th>Идентификатор</th>
                 <th>Предмет</th>
                 <th>Процент</th>
@@ -115,9 +120,12 @@ else
                 <th>Разница</th>
                 <th>Разница в %</th>
                 <th>Замечен</th>
-                <th>Что-то</th></tr></thead>
+                <th>Что-то</th>
+            </tr>
+        </thead>
         ");
-            __builder.OpenElement(5, "tbody");
+            __builder.OpenElement(8, "tbody");
+            __builder.AddMarkupContent(9, "\r\n");
 #nullable restore
 #line 30 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Pages\FetchData.razor"
              foreach (var talisman in talismans)
@@ -126,12 +134,14 @@ else
 #line default
 #line hidden
 #nullable disable
-            __builder.OpenElement(6, "tr");
-            __builder.OpenElement(7, "td");
-            __builder.OpenElement(8, "img");
-            __builder.AddAttribute(9, "height", "30");
-            __builder.AddAttribute(10, "width", "30");
-            __builder.AddAttribute(11, "src", 
+            __builder.AddContent(10, "            ");
+            __builder.OpenElement(11, "tr");
+            __builder.AddMarkupContent(12, "\r\n                ");
+            __builder.OpenElement(13, "td");
+            __builder.OpenElement(14, "img");
+            __builder.AddAttribute(15, "height", "30");
+            __builder.AddAttribute(16, "width", "30");
+            __builder.AddAttribute(17, "src", 
 #nullable restore
 #line 33 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Pages\FetchData.razor"
                                                        talisman.Image
@@ -142,36 +152,12 @@ else
             );
             __builder.CloseElement();
             __builder.CloseElement();
-            __builder.AddMarkupContent(12, "\r\n                ");
-            __builder.OpenElement(13, "td");
-            __builder.AddContent(14, 
-#nullable restore
-#line 34 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Pages\FetchData.razor"
-                     talisman.Id
-
-#line default
-#line hidden
-#nullable disable
-            );
-            __builder.CloseElement();
-            __builder.AddMarkupContent(15, "\r\n                ");
-            __builder.OpenElement(16, "td");
-            __builder.AddContent(17, 
-#nullable restore
-#line 35 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Pages\FetchData.razor"
-                     talisman.Name
-
-#line default
-#line hidden
-#nullable disable
-            );
-            __builder.CloseElement();
             __builder.AddMarkupContent(18, "\r\n                ");
             __builder.OpenElement(19, "td");
             __builder.AddContent(20, 
 #nullable restore
-#line 36 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Pages\FetchData.razor"
-                      talisman.Percent.HasValue ? $"{talisman.Percent.ToString()}%" : ""
+#line 34 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Pages\FetchData.razor"
+                     talisman.Id
 
 #line default
 #line hidden
@@ -182,8 +168,8 @@ else
             __builder.OpenElement(22, "td");
             __builder.AddContent(23, 
 #nullable restore
-#line 37 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Pages\FetchData.razor"
-                     talisman.Price
+#line 35 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Pages\FetchData.razor"
+                     talisman.Name
 
 #line default
 #line hidden
@@ -194,8 +180,8 @@ else
             __builder.OpenElement(25, "td");
             __builder.AddContent(26, 
 #nullable restore
-#line 38 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Pages\FetchData.razor"
-                     talisman.MyPriceText
+#line 36 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Pages\FetchData.razor"
+                      talisman.Percent.HasValue ? $"{talisman.Percent.ToString()}%" : ""
 
 #line default
 #line hidden
@@ -206,8 +192,8 @@ else
             __builder.OpenElement(28, "td");
             __builder.AddContent(29, 
 #nullable restore
-#line 39 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Pages\FetchData.razor"
-                      talisman.Price - talisman.MyPrice
+#line 37 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Pages\FetchData.razor"
+                     talisman.Price
 
 #line default
 #line hidden
@@ -218,6 +204,30 @@ else
             __builder.OpenElement(31, "td");
             __builder.AddContent(32, 
 #nullable restore
+#line 38 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Pages\FetchData.razor"
+                     talisman.MyPriceText
+
+#line default
+#line hidden
+#nullable disable
+            );
+            __builder.CloseElement();
+            __builder.AddMarkupContent(33, "\r\n                ");
+            __builder.OpenElement(34, "td");
+            __builder.AddContent(35, 
+#nullable restore
+#line 39 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Pages\FetchData.razor"
+                      talisman.Price - talisman.MyPrice
+
+#line default
+#line hidden
+#nullable disable
+            );
+            __builder.CloseElement();
+            __builder.AddMarkupContent(36, "\r\n                ");
+            __builder.OpenElement(37, "td");
+            __builder.AddContent(38, 
+#nullable restore
 #line 40 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Pages\FetchData.razor"
                      Math.Round((decimal)(talisman.Price - talisman.MyPrice)/(talisman.MyPrice)*100)
 
@@ -225,11 +235,11 @@ else
 #line hidden
 #nullable disable
             );
-            __builder.AddContent(33, " %");
+            __builder.AddContent(39, " %");
             __builder.CloseElement();
-            __builder.AddMarkupContent(34, "\r\n                ");
-            __builder.OpenElement(35, "td");
-            __builder.AddContent(36, 
+            __builder.AddMarkupContent(40, "\r\n                ");
+            __builder.OpenElement(41, "td");
+            __builder.AddContent(42, 
 #nullable restore
 #line 41 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Pages\FetchData.razor"
                      talisman.SpottedTime
@@ -239,9 +249,9 @@ else
 #nullable disable
             );
             __builder.CloseElement();
-            __builder.AddMarkupContent(37, "\r\n                ");
-            __builder.OpenElement(38, "td");
-            __builder.AddContent(39, 
+            __builder.AddMarkupContent(43, "\r\n                ");
+            __builder.OpenElement(44, "td");
+            __builder.AddContent(45, 
 #nullable restore
 #line 42 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Pages\FetchData.razor"
                      talisman.Other
@@ -251,7 +261,9 @@ else
 #nullable disable
             );
             __builder.CloseElement();
+            __builder.AddMarkupContent(46, "\r\n            ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(47, "\r\n");
 #nullable restore
 #line 44 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Pages\FetchData.razor"
             }
@@ -259,8 +271,11 @@ else
 #line default
 #line hidden
 #nullable disable
+            __builder.AddContent(48, "        ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(49, "\r\n    ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(50, "\r\n");
 #nullable restore
 #line 47 "C:\Users\Zver\Desktop\lineage2-calculator\L2onNew.Web\Pages\FetchData.razor"
 }
